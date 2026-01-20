@@ -1,0 +1,27 @@
+site_name: Guía de Overleaf
+site_author: Lucy
+site_url: https://lucy.github.io/guia-overleaf
+
+theme:
+  name: material
+  language: es
+  palette:
+    primary: green
+    accent: teal
+  features:
+    - navigation.tabs
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+nav:
+  - Inicio: index.md
+  - Introducción: introduccion.md
+  - Primeros Pasos: cuenta.md
+  - Editando: edicion.md
+  - Conclusiones: conclusiones.md
