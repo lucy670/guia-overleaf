@@ -1,16 +1,20 @@
 site_name: Guía de Overleaf
 site_author: Lucy
-site_url: https://lucy.github.io/guia-overleaf
+site_url: https://lucy670.github.io/guia-overleaf
 
 theme:
   name: material
+  custom_dir: overrides
   language: es
   palette:
     primary: green
     accent: teal
   features:
-    - navigation.tabs
-    - content.code.copy
+    - navigation.sections # Activa el menú lateral por secciones
+    - navigation.expand   # Despliega el menú por defecto
+    - navigation.top      # Botón de volver arriba
+    - content.code.copy   # Botón copiar en bloques de código
+    - toc.follow          # Índice flotante a la derecha
 
 markdown_extensions:
   - admonition
@@ -18,10 +22,16 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
+  - attr_list
 
 nav:
   - Inicio: index.md
   - Introducción: introduccion.md
   - Primeros Pasos: cuenta.md
-  - Editando: edicion.md
+  - Manual de Edición:
+    - Texto Básico: edicion.md
+    - Imágenes y Gráficos: imagenes.md
+    - Creación de Tablas: tablas.md
+    - Bibliografía (BibTeX): bibliografia.md
+  - Solución de Problemas: errores.md
   - Conclusiones: conclusiones.md

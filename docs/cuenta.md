@@ -1,17 +1,25 @@
-# Welcome to MkDocs
+# Primeros Pasos: Configuración
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Para comenzar a trabajar, configuraremos nuestro entorno en la nube.
 
-## Commands
+## 1. Creación de Cuenta
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+El registro es gratuito y da acceso a la mayoría de funciones necesarias.
 
-## Project layout
+1.  Accede a [Overleaf Register](https://www.overleaf.com/register).
+2.  Regístrate con tu email o vincula tu cuenta de **Google** u **ORCID**.
+3.  Confirma tu correo para habilitar la compilación de proyectos grandes.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+!!! warning "Aviso para Estudiantes"
+    Si tienes correo institucional (`.edu` o de tu universidad), úsalo. Muchas instituciones tienen licencias **Overleaf Professional** que te darán acceso a características premium (como historial ilimitado y sincronización con GitHub) de forma gratuita.
+
+## 2. Interfaz del Proyecto
+
+Al crear un **"New Project"** > **"Blank Project"**, verás tres paneles:
+
+* **Panel Izquierdo (Explorador):** Aquí están tus archivos `.tex`, imágenes y bibliografía.
+* **Panel Central (Editor):** Donde escribes el código LaTeX.
+* **Panel Derecho (Visor):** Donde se muestra el PDF final.
+
+!!! tip "Atajo de Teclado"
+    Usa `Ctrl + Enter` (o `Cmd + Enter` en Mac) para recompilar el documento rápidamente sin tener que hacer clic en el botón verde "Recompile".
