@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://lucy.github.io/guia-overleaf/</loc>
+         <loc>https://lucy670.github.io/guia-overleaf/</loc>
          <lastmod>2026-01-20</lastmod>
     </url>
     <url>
-         <loc>https://lucy.github.io/guia-overleaf/conclusiones/</loc>
+         <loc>https://lucy670.github.io/guia-overleaf/bibliografia/</loc>
          <lastmod>2026-01-20</lastmod>
     </url>
     <url>
-         <loc>https://lucy.github.io/guia-overleaf/cuenta/</loc>
+         <loc>https://lucy670.github.io/guia-overleaf/conclusiones/</loc>
          <lastmod>2026-01-20</lastmod>
     </url>
     <url>
-         <loc>https://lucy.github.io/guia-overleaf/edicion/</loc>
+         <loc>https://lucy670.github.io/guia-overleaf/cuenta/</loc>
          <lastmod>2026-01-20</lastmod>
     </url>
     <url>
-         <loc>https://lucy.github.io/guia-overleaf/introduccion/</loc>
+         <loc>https://lucy670.github.io/guia-overleaf/edicion/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://lucy670.github.io/guia-overleaf/errores/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://lucy670.github.io/guia-overleaf/imagenes/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://lucy670.github.io/guia-overleaf/introduccion/</loc>
+         <lastmod>2026-01-20</lastmod>
+    </url>
+    <url>
+         <loc>https://lucy670.github.io/guia-overleaf/tablas/</loc>
          <lastmod>2026-01-20</lastmod>
     </url>
 </urlset>
